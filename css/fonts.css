@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Main-font';
+  src: url('/fonts/opensans/open-sans.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Main';
+  src: url('/fonts/montserrat/montserrat-regular.woff2') format('woff2');
+}
