@@ -24,7 +24,7 @@ header{
 }
 body {
   background-color: #000000;
-  background-image: url("/img/bg17.jpg");
+  background-image: url("../img/bg17.jpg");
   background-attachment: fixed;
   background-position: left;
   background-size: 100% 100%;
