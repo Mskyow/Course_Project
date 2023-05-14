@@ -37,7 +37,7 @@ header{
   display: flex;
  flex-direction: row;
 row-gap: 0px;
-background-image: url(/img/bg17.jpg);
+background-image: url(../img/bg17.jpg);
 background-position: left;
 background-position-y: 40%;
 background-size: 90% 80%;
@@ -62,7 +62,7 @@ margin-top: 56vh;
 
 
 .gray-box {
-  background-image: url(/img/bg18.jpg);
+  background-image: url(../img/bg18.jpg);
   padding: 10px;
   
 }
@@ -98,7 +98,7 @@ margin-top: 56vh;
   width: 100%;
   height: auto;
   border-radius: 7px;
-  background-image: url(/img/bg17.jpg);
+  background-image: url(../img/bg17.jpg);
   background-repeat: no-repeat;
   transition: transform 0.3s;
 }
@@ -150,7 +150,7 @@ hr {
   margin: 50px auto;
   text-align: center;
   max-width: 800px;
-  background-image: url(/img/studiorum.jpg);
+  background-image: url(../img/studiorum.jpg);
   background-position-y: -19vh;
   background-position-x: -17vw;
   padding: 0.7%;
