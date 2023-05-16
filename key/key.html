@@ -39,7 +39,6 @@
           <li ><a class="button" href="../main.html#writing">Написание</a></li>
           <li ><a class="button" href="../main.html#vocal">Запись вокала</a></li>
           <li ><a class="button" href="../main.html#key">Под ключ</a></li>
-          <li ><a class="button" href="#about">О нас</a></li>
         </ul>
       </nav>
     </header>
@@ -147,7 +146,7 @@
     $.ajax({
       type: "GET",
       
-      url: "........////////info.xml", // Путь к вашему XML-файлу
+      url: "info.xml", // Путь к вашему XML-файлу
       dataType: "xml",
       success: function(xml) {
         $(xml).find('info1').each(function() {
