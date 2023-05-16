@@ -36,7 +36,6 @@ body {
 }
 
 .main-header {
-
   margin-bottom: 30vh;
   display: flex;
  flex-direction: row;
@@ -49,16 +48,16 @@ body {
 
 .container {
   padding: 14vh 9vw;
+  margin-left: 95px;
 }
 
 .main-title {
   color: #7a42c8;
-font-size:60px;
-width: 80%;
+font-size:80px;
 font-family:'Main font';
-text-align: center;
+text-align: left;
 margin-top: 55vh;
-
+padding: 0%;
 }
 
 .service-variants {
@@ -108,7 +107,9 @@ margin-top: 55vh;
 
 @media (max-width: 1200px) {
   
-  
+  .container{
+    margin: auto;
+  }
   h2, h3, h4, h5, h6 {
     font-size: large;
   }
@@ -128,7 +129,7 @@ margin-top: 55vh;
   .main-title {
     font-size: 40px;
    text-align: center;
-   padding: 600px;
+   padding: 60px;
    margin-top: 10px;
   margin-bottom: 40px; /* Измененный отступ */
   }
