@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -44,20 +47,29 @@ body {
 
 .main-image {
   width: 36vw;
+  
 }
 
 .container {
   padding: 14vh 9vw;
   margin-left: 95px;
 }
-
+.h1-bg {
+  background-image: url(../icons/h1-bg.svg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: top left;
+  
+}
 .main-title {
-  color: #7a42c8;
+  color: #7f4eb0;
 font-size:80px;
 font-family:'Main font';
-text-align: left;
-margin-top: 55vh;
+text-align: center;
+margin-top: 50vh;
 padding: 0%;
+margin-right:70px ;
+
 }
 
 .service-variants {
@@ -104,6 +116,12 @@ padding: 0%;
 .option img:hover {
   transform: scale(1.2);
 }
+@media (max-width: 1500px)
+{
+  .h1-bg {
+    background-image: none;
+}
+}
 
 @media (max-width: 1200px) {
   
@@ -132,6 +150,7 @@ padding: 0%;
    padding: 60px;
    margin-top: 10px;
   margin-bottom: 40px; /* Измененный отступ */
+  margin-right:0px ;
   }
 
 
@@ -167,8 +186,6 @@ padding: 0%;
     margin-bottom: 0px;
   }
 }
-
-
 
 
 

@@ -1,42 +1,35 @@
 header {
-  background: linear-gradient(rgb(131, 62, 252), rgb(115, 81, 109));
-  
+  background: linear-gradient(#833efc, #73516d);
   width: 100%;
   display: flex;
-  box-shadow: 0px 3px 0px 0px rgb(40, 40, 40);
-  opacity: 79%;
+  box-shadow: 0px 3px 0px 0px #282828;
+  opacity: 0.79;
   z-index: 1;
 }
-
-.navigation {
+header .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
 }
-
-.navigation li {
+header .navigation li {
   padding: 30px;
   list-style-type: none;
   margin-right: 10px;
   margin-left: 20px;
 }
-
-.navigation a {
-  color: rgb(16, 11, 11);
+header .navigation a {
+  color: #100b0b;
   text-decoration: none;
   font-weight: bold;
 }
-
-.button {
+header .button {
   transition: color 0.3s ease-in-out;
 }
-
-.button.hovered {
-  color: rgb(101, 29, 173); /* Цвет текста при наведении */
+header .button.hovered {
+  color: #651dad;
 }
-
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,22 +38,35 @@ nav {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-.menu-toggle {
+header .menu-toggle {
   display: none;
 }
-
-.menu-toggle span {
+header span {
   display: block;
   width: 30px;
   height: 4px;
   margin: 5px;
-  background-color: rgb(28, 25, 25);
+  background-color: #1c1919;
   transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 1200px) {
-  .navigation {
+  header .menu-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  header .menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    background-color: #1c1919;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header .navigation {
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -71,20 +77,15 @@ nav {
     left: 0;
     transition: all 0.3s ease-in-out;
   }
-
-  .navigation.show {
+  
+  header .navigation.show {
     display: flex;
   }
-
-  .navigation li {
+  
+  header .navigation li {
     width: 100%;
     margin: 0;
     padding: 20px;
     text-align: center;
-  }
-
-  .menu-toggle {
-    display: block;
-    cursor: pointer;
   }
 }
